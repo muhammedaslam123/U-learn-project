@@ -11,8 +11,8 @@ const connectDb = async () => {
   try {
     // mongodb connection string
     mongoose.set("strictQuery", false);
-    await mongoose.connect("mongodb+srv://aslam123:aslam123@cluster0.re2ljg7.mongodb.net/U-learn_Project", dbOpt);
-    // await mongoose.connect("mongodb://localhost:27017/U-learn_Project", dbOpt);
+    // await mongoose.connect("mongodb+srv://aslam123:aslam123@cluster0.re2ljg7.mongodb.net/U-learn_Project", dbOpt);
+    await mongoose.connect("mongodb://localhost:27017/U-learn_Project", dbOpt);
     // eslint-disable-next-line no-console
     console.log("MongoDB connected");
   } catch (err) {

@@ -7,7 +7,7 @@ export const Environment= {
     appId: "1:623488054012:web:33c7ba239d5c84aaa09d79",
     measurementId: "G-G5SE36HY2F",
 
-    //  ApiUrl: 'http://localhost:4000/'
-     ApiUrl:'https://api.ulearn.shop/'
+     ApiUrl: 'http://localhost:4000/'
+    //  ApiUrl:'https://api.ulearn.shop/'
   }
 
